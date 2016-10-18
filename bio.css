@@ -1,0 +1,79 @@
+body{
+    /*background-image: url("images/sfondo01.jpg");*/
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Serif;
+    margin: 30px;
+}
+
+nav{
+    border: 2px dotted red;
+}
+
+ul#menu li{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #F0F0F0;
+    display: inline;
+    border: 2px dotted red;
+}
+ul#menu li a{
+
+}
+
+ul#menu li a:link{
+    text-decoration: none;
+    color: blue;
+}
+
+a:link{
+    color:#A4A400;
+}
+a:visited{
+    color:#A4A400;
+}
+a:hover{
+    color: red;
+}
+
+h1.mainhead{
+    color: #A4A400;
+    background-color: #F0F0F0;
+    text-align: center;
+    font-style: inherit;
+    font-size: 22pt;
+}
+h1.intest{
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: sans-serif;
+    font-size: 18pt;
+    text-decoration: underline;
+
+}
+
+img{
+    height: 240px;
+    width: 240px;
+}
+div{
+    padding: 20px;
+    border: 2px dotted red;
+}
+
+aside {
+    float: right;
+    max-width: 240px;
+    margin: 0;
+    padding: 1em;
+    border: 2px dotted blue;
+}
+section {
+    height: 240px;
+    margin-right: 240px;
+    border-right: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    border: 2px dotted green;
+}

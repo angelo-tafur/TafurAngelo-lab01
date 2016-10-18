@@ -1,0 +1,33 @@
+body{
+    background-color: white;
+}
+
+h1{
+    background-color: #adad85;
+    /*background-image: url("images/sfondo01.jpg");*/
+    font-family:"verdana";
+    color: white;
+    font-size: 300%;
+    text-align: center;
+    padding: 30px;
+}
+ul{
+    list-style-type: none;
+    border:1px;
+}
+li{
+    display: inline;
+    padding: 10px;
+
+}
+
+li img:hover{
+    background-color: #adad85;
+}
+img.avatar{
+    width: 150px; height: 150px;
+}
+
+p.d { float: right; width: 15%; margin: 0.5em;
+    border: 2px solid black; }
+div { border: 3px dotted green; overflow: hidden; }
