@@ -1,30 +1,33 @@
 body{
-    /*background-image: url("images/sfondo01.jpg");*/
     background-color: white;
     color: #404040;
     font-size: 11pt;
-    font-family: Serif;
     margin: 30px;
 }
 
 nav{
-    border: 2px dotted red;
+    border: 1px dotted red;
+}
+
+ul#menu{
+    list-style-type: none;
+    overflow: hidden;
 }
 
 ul#menu li{
-    padding-left: 20px;
-    padding-right: 20px;
+    float: left;
     background-color: #F0F0F0;
-    display: inline;
-    border: 2px dotted red;
 }
 ul#menu li a{
-
-}
-
-ul#menu li a:link{
+    display: block;
+    padding: 20px;
+    color: #A4A400;
+    text-align: center;
     text-decoration: none;
-    color: blue;
+    border:1px solid gray;
+}
+ul#menu li a:hover{
+    background-color: white;
 }
 
 a:link{
@@ -37,11 +40,10 @@ a:hover{
     color: red;
 }
 
-h1.mainhead{
+header{
     color: #A4A400;
     background-color: #F0F0F0;
     text-align: center;
-    font-style: inherit;
     font-size: 22pt;
 }
 h1.intest{
@@ -50,7 +52,6 @@ h1.intest{
     font-family: sans-serif;
     font-size: 18pt;
     text-decoration: underline;
-
 }
 
 img{
@@ -58,8 +59,7 @@ img{
     width: 240px;
 }
 div{
-    padding: 20px;
-    border: 2px dotted red;
+    border: 1px dotted red;
 }
 
 aside {
@@ -67,7 +67,7 @@ aside {
     max-width: 240px;
     margin: 0;
     padding: 1em;
-    border: 2px dotted blue;
+    border: 1px dotted blue;
 }
 section {
     height: 240px;
@@ -75,5 +75,4 @@ section {
     border-right: 1px solid gray;
     padding: 1em;
     overflow: hidden;
-    border: 2px dotted green;
 }

@@ -1,33 +1,40 @@
 body{
     background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    margin: 30px;
 }
-
-h1{
-    background-color: #adad85;
-    /*background-image: url("images/sfondo01.jpg");*/
-    font-family:"verdana";
-    color: white;
-    font-size: 300%;
+header{
+    color: #A4A400;
+    background-color: #F0F0F0;
     text-align: center;
-    padding: 30px;
+    font-style: inherit;
+    font-size: 22pt;
 }
-ul{
-    list-style-type: none;
-    border:1px;
-}
-li{
-    display: inline;
-    padding: 10px;
-
-}
-
-li img:hover{
-    background-color: #adad85;
-}
-img.avatar{
-    width: 150px; height: 150px;
+h2{
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: sans-serif;
+    font-size: 18pt;
+    text-decoration: underline;
 }
 
-p.d { float: right; width: 15%; margin: 0.5em;
-    border: 2px solid black; }
-div { border: 3px dotted green; overflow: hidden; }
+img{
+    width: 160px;
+    height: 160px;
+}
+p.d img:hover{
+    background-color: #F0F0F0;
+}
+
+p.d {
+    float: left;
+    width: 160px;
+    margin: 1em;
+    text-align: center;
+}
+
+
+div { border: 1px dotted green;
+    overflow: hidden;
+}
