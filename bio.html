@@ -1,99 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
+<!--Come requisito addizionale ho aggiunto una barra di navigazione del sito con i link alle diverse ancore della pagina-->
 <head>
 
     <meta charset="UTF-8">
     <title>Profilo di Mario Rossi</title>
     <link rel="stylesheet" href="bio.css">
+    <link href="images/faviconDark.png" rel="shortcut icon">
 
 </head>
 
 <body>
 
-<header>
-    <h1>Profilo di Mario Rossi</h1>
-</header>
-
-<hr>
-<nav>
-    <ul id="menu">
-        <li><a href="#descrizione">Descrizione</a> </li>
-        <li><a href="#Dati">Dati Personali</a> </li>
-        <li><a href="#Competenze">Competenze informatiche</a> </li>
-        <li><a href="#Esperienze">Esperienze lavorative</a> </li>
-        <li><a href="#links">Links</a> </li>
-    </ul>
-</nav>
-
-<hr>
-
 <div>
-    <h1 class="intest" id="descrizione">Descrizione</h1><!--contiene una breve descrizione biografica-->
-    <p>
-        descrizione biografica.descrizione biografica.descrizione biografica.descrizione biografica.descrizione biografica.
-        descrizione biografica.descrizione biografica.descrizione biografica.descrizione biografica.descrizione biografica.
-        descrizione biografica.descrizione biografica.descrizione biografica.descrizione biografica.descrizione biografica.
-        descrizione biografica.descrizione biografica.descrizione biografica.descrizione biografica.descrizione biografica.
-        descrizione biografica.descrizione biografica.descrizione biografica.descrizione biografica.descrizione biografica.
-        descrizione biografica.descrizione biografica.descrizione biografica.descrizione biografica.descrizione biografica.
-    </p>
-</div>
-<hr>
-<div>
-    <h1 class="intest" id="Dati">Dati personali</h1>
+    <header>
+        <h1><span>Profilo di Mario Rossi</span></h1>
+    </header>
+
+    <nav>
+        <ul id="menu">
+            <li><a href="#Dati">Dati Personali</a> </li>
+            <li><a href="#Competenze">Competenze informatiche</a> </li>
+            <li><a href="#Esperienze">Esperienze lavorative</a> </li>
+            <li><a href="#links">Links</a> </li>
+        </ul>
+    </nav>
+    <hr>
     <aside>
-        <img src="images/avatar03.png" alt="foto profilo">
+        <img id="photo" src="images/avatar01.png" alt="foto profilo">
     </aside>
     <article>
-        <p>Nome Cognome</p>
-        <p>Indirizzo</p>
-        <p>Numero di telefono</p>
+        <h3 id="Dati"><span>Dati personali</span></h3>
+        <p>Mario Rossi</p>
+        <p>Via Monte Napoleone 100a Milano</p>
+        <p>39 338 5644305</p>
+        <p>mario.rossi@libero.com</p>
+        <p>Data di nascita: 12/09/1982</p>
     </article>
-</div>
-<hr>
-<div>
-    <h1 class="intest" id="Competenze">Competenze informatiche</h1>
+
+    <hr>
+
+    <h3 id="Competenze"><span>Competenze informatiche</span></h3>
     <ul>
         <li>linguaggi di programmazione
             <ul>
                 <li><abbr title="Hypertext Markup Language">HTML</abbr></li>
-
+                <li><abbr title ="Cascading Style Sheets">CSS</abbr></li>
+                <li>Java</li>
+                <li>C e C++</li>
+                <li><abbr title="Structured Query Language">SQL</abbr> </li>
+                <li>Python</li>
+                <li><abbr title="version control system">VCS</abbr></li>
             </ul>
         </li>
-        <li>Sistemi operativi</li>
-        <li>Ambiente di sviluppo</li>
-        <li>linguaggi di programmazione</li>
-
+        <li>Sistemi operativi
+            <ul>
+                <li>Linux</li>
+                <li>Windows</li>
+            </ul>
+        </li>
+        <li>Ambiente di sviluppo
+            <ul>
+                <li>Intellij Idea</li>
+                <li>WebStorm</li>
+                <li>PostgreSQL</li>
+                <li>Pycharm</li>
+                <li>Netbeans</li>
+                <li>Android Studio</li>
+            </ul>
+        </li>
     </ul>
 
-</div>
-<hr>
 
-<div>
-    <h1 class="intest" id="Esperienze">Esperienze di lavoro</h1>
+    <hr>
+
+
+    <h3 id="Esperienze"> <span>Esperienze di lavoro</span></h3>
     <ol>
-        <li>Ultimo lavoro</li>
-        <li>Penultimo lavoro</li>
-        <li>Primo lavoro</li>
+        <li>2010 - 2016 Imprenditore e dirigente, settore informatico </li>
+        <li>2006 - 2010 Analisi, Progettazione, Sviluppo applicazioni software, web e database. Sistemista ambiente Linux/Windows. </li>
+        <li>2004 - 2006 responsabile progettista di sistemi per la grafic a al computer e per l'elaborazione di immagini; </li>
     </ol>
 
-</div>
-<hr>
 
-<div>
-    <h1 class="intest" id="Interessi">Interessi personali</h1>
+    <hr>
+
+
+    <h3 id="Interessi"><span>Interessi personali</span></h3>
     <dl>
         <dt>Danze Caraibiche</dt>
         <dd>Sono i balli che si ballano nei caraibi, come: Salsa, Merengue e Bachata</dd>
         <dt>Capoeira</dt>
-        <dd>&eacute; un'arte marziale brasiliana caratterizzata da elementi espressivi come la musica e l'armonia dei movimenti</dd>
+        <dd>&egrave; un'arte marziale brasiliana caratterizzata da elementi espressivi come la musica e l'armonia dei movimenti</dd>
     </dl>
+
+    <hr>
+
+    <h3 id="links"><span>Links</span></h3>
+    <p>
+        <a href="index.html">Home page</a>
+    </p>
+    <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                 src="http://jigsaw.w3.org/css-validator/images/vcss"
+                 alt="Valid CSS!">
+        </a>
+    </p>
+
+    <p>
+        <img style="border:0;width:88px;height:31px"
+             src="images/valid-html.png"
+             alt="Valid HTML!">
+    </p>
 </div>
-<hr>
-<div>
-    <h1 class="intest" id="links">Links</h1>
-    <a href="index.html">Home page</a>
-</div>
+
 </body>
+
 </html>

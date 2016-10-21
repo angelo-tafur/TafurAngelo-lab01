@@ -1,35 +1,36 @@
 body{
-    background-color: white;
+    width: 1024px;
     color: #404040;
     font-size: 11pt;
-    margin: 30px;
-}
-
-nav{
-    border: 1px dotted red;
+    font-family: Georgia, Garamond, serif;
+    background-image: url("images/back.jpg");
 }
 
 ul#menu{
-    list-style-type: none;
+    list-style: none;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
-
 ul#menu li{
     float: left;
     background-color: #F0F0F0;
 }
 ul#menu li a{
     display: block;
-    padding: 20px;
+    padding: 10px;
     color: #A4A400;
     text-align: center;
     text-decoration: none;
-    border:1px solid gray;
+    border: 1px dotted gray;
 }
 ul#menu li a:hover{
     background-color: white;
 }
 
+ul{
+    list-style-image: url("images/listStyleLinux.png");
+}
 a:link{
     color:#A4A400;
 }
@@ -42,37 +43,37 @@ a:hover{
 
 header{
     color: #A4A400;
+    text-align: center;
+}
+span {
     background-color: #F0F0F0;
+}
+h1,h3{
+    color: #A4A400;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+    letter-spacing: 0.25em;
+}
+h1{
     text-align: center;
     font-size: 22pt;
+    font-weight: bold;
 }
-h1.intest{
-    color: #A4A400;
-    background-color: #F0F0F0;
-    font-family: sans-serif;
+h3{
     font-size: 18pt;
     text-decoration: underline;
 }
 
-img{
+#photo {
     height: 240px;
     width: 240px;
 }
-div{
-    border: 1px dotted red;
-}
-
 aside {
     float: right;
     max-width: 240px;
     margin: 0;
-    padding: 1em;
-    border: 1px dotted blue;
 }
-section {
-    height: 240px;
+article {
+    min-height: 240px;
     margin-right: 240px;
-    border-right: 1px solid gray;
-    padding: 1em;
     overflow: hidden;
 }
