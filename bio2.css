@@ -1,0 +1,88 @@
+body{
+    width: 1024px;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+    background-image: url("images/back.jpg");
+}
+#datiPersonali{
+    background: url("images/avatar01.png") no-repeat top right;
+    overflow: hidden;
+}
+
+ul#menu{
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+ul#menu li{
+    float: left;
+    background-color: #F0F0F0;
+}
+ul#menu li a{
+    display: block;
+    padding: 10px;
+    color: #A4A400;
+    text-align: center;
+    text-decoration: none;
+    border: 1px dotted gray;
+}
+ul#menu li a:hover{
+    background-color: white;
+}
+
+ul{
+    /*list-style-image: url("images/listStyleLinux.png");*/
+    list-style: none;
+}
+i{
+    color:darkblue;
+    margin-right: 5px;
+}
+a:link{
+    color:#A4A400;
+}
+a:visited{
+    color:#A4A400;
+}
+a:hover{
+    color: red;
+}
+
+header{
+    color: #A4A400;
+    text-align: center;
+}
+span {
+    background-color: #F0F0F0;
+}
+h1,h3{
+    color: #A4A400;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+    letter-spacing: 0.25em;
+}
+h1{
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+}
+h3{
+    font-size: 18pt;
+    text-decoration: underline;
+}
+
+#photo {
+    height: 240px;
+    width: 240px;
+}
+aside {
+    float: right;
+    max-width: 240px;
+    margin: 0;
+}
+article {
+    min-height: 240px;
+    margin-right: 240px;
+    overflow: hidden;
+}
